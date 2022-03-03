@@ -1,0 +1,12 @@
+\contentsline {section}{\numberline {1}Sequences and Series}{2}{section.1}%
+\contentsline {section}{\numberline {2}Exponents and Logarithms}{3}{section.2}%
+\contentsline {section}{\numberline {3}Proof}{4}{section.3}%
+\contentsline {section}{\numberline {4}Counting and Binomial Theorem}{8}{section.4}%
+\contentsline {section}{\numberline {5}Partial Fraction - AHL}{11}{section.5}%
+\contentsline {section}{\numberline {6}Complex Number - AHL}{12}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Introduction}{12}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Argand Diagram}{13}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Complex Number in Other Forms}{15}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Power of Complex Number}{16}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Polynomial Function with Complex Roots}{17}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Root of Complex Numbers}{17}{subsection.6.6}%
