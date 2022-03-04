@@ -127,7 +127,7 @@ Topic 5 Calculus}
 \section{Limits}
 \begin{enumerate}
     \item Limit
-    \begin{example}{1.1}{}
+    \begin{example}{5.1.1}{}
         $$\lim_{x\rightarrow 1}\frac{x^2-1}{x-1}=2$$
         when $x$ is {\color{red}{approaching to}} $1$ (it never equals to $1$), the value $\frac{x^2-1}{x-1}$ is appraoching to 2.
     \end{example}
@@ -135,21 +135,21 @@ Topic 5 Calculus}
         \item Left-hand and Right-hand Limit 
         \begin{figure}[H]
             \centering 
-            \includegraphics[width=0.5\textwidth]{Fig.1.jpg} 
+            \includegraphics[width=0.5\textwidth]{Fig.5.1.jpg} 
         \end{figure}
-        \begin{example}{1.2}{}
+        \begin{example}{5.1.2}{}
             The left-hand limit of $\frac{x^2-1}{x-1}$ when $x \rightarrow 1$ is $$\lim_{x \rightarrow 1^-}\frac{x^2-1}{x-1}=2.$$
             The right-hand limit of $\frac{x^2-1}{x-1}$ when $x \rightarrow 1$ is $$\lim_{x \rightarrow 1^+}\frac{x^2-1}{x-1}=2.$$
         \end{example}
         \item Only when the left-hand limit and the right-hand limit exist and are the same at the point $x=a$, we say the limit of $f(x)$ exists on $x=a$. 
         $$\text{i.e., }{\color{red}{\lim_{x\rightarrow a^-}f(x)=\lim_{x\rightarrow a^+}f(x)=c\ \Rightarrow\ \lim_{x\rightarrow a}f(x)=c}},\ c\text{ is a constant}\in \mathbb{R}$$
         Otherwise, the limit does not exist on $x=a$ {\color{green}(OR DNE.)}.
-        \begin{example}{1.3}{}
+        \begin{example}{5.1.3}{}
             \textbf{Does $\lim\limits_{x\rightarrow 0}\frac{1}{x}$ exist? How about $\lim\limits_{x\rightarrow \infty}\frac{1}{x}$?}\\
             \noindent\rule[0.1pt]{\textwidth}{1pt}
             \begin{figure}[H]
                 \centering 
-                \includegraphics[width=0.5\textwidth]{Fig.2.jpg} 
+                \includegraphics[width=0.5\textwidth]{Fig.5.2.jpg} 
             \end{figure}
             \begin{itemize}
                 \item $\lim\limits_{x\rightarrow 0}\frac{1}{x}$ doest not exist. 
@@ -185,7 +185,7 @@ Topic 5 Calculus}
     \begin{myclaim}{ }{}
         \\{\color{red}\textbf{Continuity}}: If the graph of the function does not have any {\color{red}{breaks or holes}} within a certain interval, then the function is continuous within that interval.
     \end{myclaim}
-    \begin{theorem}{1.1 Continuity Test}{}
+    \begin{theorem}{5.1.1 Continuity Test}{}
         If ${\color{red}{\lim\limits_{x\rightarrow a^-}f(x)=\lim\limits_{x\rightarrow a^+}f(x)=f(a)}}$, then the function $f$ is \textbf{continuous} at $x=a$.
     \end{theorem}
 \end{enumerate}
@@ -195,7 +195,7 @@ Topic 5 Calculus}
     \item Gradient of Secant: 
     \begin{figure}[H]
         \centering 
-        \includegraphics[width=0.5\textwidth]{Fig.3.jpg} 
+        \includegraphics[width=0.5\textwidth]{Fig.5.3.jpg} 
     \end{figure}
     \begin{itemize}
         \item $$\text{Slope }m=\frac{f(x+\Delta x)-f(x)}{x+\Delta x-x}=\frac{f(x+\Delta x)-f(x)}{\Delta x}.$$
@@ -204,7 +204,7 @@ Topic 5 Calculus}
             $${\color{red}\lim_{\Delta x\rightarrow 0}\frac{f(x+\Delta x)-f(x)}{\Delta x}}\text{ is the derivative of a function, denoted as } {\color{red}\frac{\mathrm{d}y}{\mathrm{d}x}}\text{ or }{\color{red}f'(x)}.$$
         \end{myclaim}
     \item The graphic meaning of derivative is the gradient of tangent of the function. 
-    \begin{example}{2.1}{}
+    \begin{example}{5.2.1}{}
         \textbf{By definition, find the derivative of $f(x)=x^2+1$ and hance find the gradient of the tangent line when $x=3$.}\\
         \noindent\rule[0.1pt]{\textwidth}{1pt}
         $$\begin{aligned}
@@ -218,12 +218,12 @@ Topic 5 Calculus}
     \end{example}
     \end{itemize}
     \item Derivative of $x^n$
-    \begin{theorem}{2.1 Power Rule}{}
+    \begin{theorem}{5.2.1 Power Rule}{}
         If $f(x)=x^n$, then 
         $${\color{red}{f'(x)=nx^{n-1}}},\ \text{for any } n \in \mathbb{R}.$$
         Note: The derivative of any {\color{red}{constant}} is {\color{red}{0}}.
     \end{theorem}
-    \begin{example}{2.2}{}
+    \begin{example}{5.2.2}{}
         $$f(x)=\frac{1}{x}=x^{-1}\ \Rightarrow\ f'(x)=(-1)x^{-1-1}=-x^{-2};$$
         $$f(x)=\sqrt{x}=x^{\frac{1}{2}}\ \Rightarrow\ f'(x)=\frac{1}{2}x^{\frac{1}{2}-1}=\frac{1}{2}x^{-\frac{1}{2}};$$
         $$f(x)=c=cx^0\ \Rightarrow\ f'(x)=0\times cx^{0-1}=0.$$
@@ -248,15 +248,15 @@ Topic 5 Calculus}
         {\color{green}{Note: Smooth turning point on the graph is allowed.}}
     \end{myclaim}
     \item More Rules of Differentiation: 
-    \begin{theorem}{2.2 Product Rule}{}
+    \begin{theorem}{5.2.2 Product Rule}{}
         Let $f(x)$ and $g(x)$ be two functions with derivatives of $f'(x)$ and $g'(x)$, respectively.
         \color{red}{$$\left(f(x)\times g(x)\right)'=f'(x)g(x)+f(x)g'(x).$$}
     \end{theorem}
-    \begin{theorem}{2.3 Quotient Rule}{}
+    \begin{theorem}{5.2.3 Quotient Rule}{}
         Let $f(x)$ and $g(x)$ be two functions with derivatives of $f'(x)$ and $g'(x)$, respectively.
         \color{red}{$$\left(\frac{f(x)}{g(x)}\right)'=\frac{f'(x)g(x)-f(x)g'(x)}{g^2(x)}.$$}
     \end{theorem}
-    \begin{theorem}{2.4 Chain Rule}{}
+    \begin{theorem}{5.2.4 Chain Rule}{}
         For a composite function $f(g(x))$ or $(f\circ g)(x)$, the derivative will be $${\color{red}{f'(g(x))\times g'(x)}}.$$
         OR \\
         If $y=f(u)$ and $u=g(x)$, then $${\color{red}{\frac{\mathrm{d}y}{\mathrm{d}x}=\frac{\mathrm{d}y}{\mathrm{d}u}\cdot\frac{\mathrm{d}u}{\mathrm{d}x}}}.$$
@@ -276,7 +276,7 @@ Topic 5 Calculus}
         \\\textbf{\color{red}{Normal}} is perdendicular to the tangent and passes through the same tangent point. 
         \begin{figure}[H]
             \centering 
-            \includegraphics[width=0.5\textwidth]{Fig.4.jpg} 
+            \includegraphics[width=0.5\textwidth]{Fig.5.4.jpg} 
         \end{figure}
     \end{myclaim}
     \item Increasing and Decreasing Function: 
@@ -301,11 +301,11 @@ Topic 5 Calculus}
 \begin{enumerate}
     \item When differentiating something with $\color{red}{y}$, multiply $\color{red}{\frac{\mathrm{d}y}{\mathrm{d}x}}$ at the end. 
     \item $\color{red}{(y^2)'=2y\frac{\mathrm{d}y}{\mathrm{d}x}}$.
-    \begin{proof}{4.1}{}
+    \begin{proof}{5.4.1}{}
         If $u=y^2$, then 
         $$\frac{\mathrm{d}u}{\mathrm{d}x}=\frac{\mathrm{d}u}{\mathrm{d}y}\cdot\frac{\mathrm{d}y}{\mathrm{d}x}=2y\cdot\frac{\mathrm{d}y}{\mathrm{d}x}.\ \ \ \ \ \ \ \ \ \text{[Chain Rule]}$$
     \end{proof}
-    \begin{example}{4.1}{}
+    \begin{example}{5.4.1}{}
         \textbf{Find $\frac{\mathrm{d}y}{\mathrm{d}x}$ for the circle $x^2+y^2=16$.}\\
         \noindent\rule[0.1pt]{\textwidth}{1pt}
         $$\begin{aligned}
@@ -313,7 +313,7 @@ Topic 5 Calculus}
             \frac{\mathrm{d}y}{\mathrm{d}x}&=-\frac{2x}{2y}=-\frac{x}{y}.
         \end{aligned}$$
     \end{example}
-    \begin{example}{4.2}{}
+    \begin{example}{5.4.2}{}
         \textbf{Find $\frac{\mathrm{d}y}{\mathrm{d}x}$ for $e^x+x\sin y=\cos 2y$.}\\
         \noindent\rule[0.1pt]{\textwidth}{1pt}
         $$\begin{aligned}
@@ -324,29 +324,29 @@ Topic 5 Calculus}
         \end{aligned}$$
     \end{example}
     \item Second Order Differentiation of Implicit functions*: Differentiate the first order differentiation.
-    \begin{example}{4.3}{}
+    \begin{example}{5.4.3}{}
         \textbf{Find $\frac{\mathrm{d}^2y}{\mathrm{d}x^2}$ for the circle $x^2+y^2=16$.} (From Ex. 4.1: $2x+2y\frac{\mathrm{d}y}{\mathrm{d}x}=0,\ \frac{\mathrm{d}y}{\mathrm{d}x}=-\frac{2x}{2y}=-\frac{x}{y}.$)\\
         \noindent\rule[0.1pt]{\textwidth}{1pt}
         $$(2x)'+\left(2y\frac{\mathrm{d}y}{\mathrm{d}x}\right)'=(0)'\Rightarrow2+\left((2y)'\frac{\mathrm{d}y}{\mathrm{d}x}+2y\left(\frac{\mathrm{d}y}{\mathrm{d}x}\right)'\right)=0\Rightarrow2+2\left(\frac{\mathrm{d}y}{\mathrm{d}x}\right)^2+2y\frac{\mathrm{d}^2y}{\mathrm{d}x^2}=0$$
         $$\frac{\mathrm{d}^2y}{\mathrm{d}x^2}=\frac{-2-2\left(\frac{\mathrm{d}y}{\mathrm{d}x}\right)^2}{2y}=\frac{-2-2\left(-\frac{x}{y}\right)^2}{2y}.$$
     \end{example}
     \item Derivative of Inverse Trignometry Functions
-    \begin{theorem}{4.1}{}
+    \begin{theorem}{5.4.1}{}
         $$y=\arcsin x\ \Rightarrow\ {\color{red}{\frac{\mathrm{d}y}{\mathrm{d}x}}=\frac{1}{\cos y}=\frac{1}{\sqrt{1-x^2}}},\ \arcsin x\in\left[-\frac{\pi}{2},\frac{\pi}{2}\right](\cos y>0).$$
-        \begin{proof}{4.1}{}
+        \begin{proof}{5.4.1}{}
             From $y=\arcsin x,$ we get $\sin y=x$. This situation can be illustrated by the figure below: 
             \begin{figure}[H]
                 \centering 
-                \includegraphics[width=0.5\textwidth]{Fig.5.jpg} 
+                \includegraphics[width=0.5\textwidth]{Fig.5.5.jpg} 
             \end{figure}
             $$\therefore (\sin y)'=(x)'\ \Rightarrow\ \cos y\frac{\mathrm{d}y}{\mathrm{d}x}=1$$
             $$\therefore \frac{\mathrm{d}y}{\mathrm{d}x}=\frac{1}{\cos y}=\frac{1}{\sqrt{1-x^2}}.$$
         \end{proof}
     \end{theorem}
-    \begin{theorem}{4.2}{}
+    \begin{theorem}{5.4.2}{}
         $$y=\arccos x\ \Rightarrow\ {\color{red}{\frac{\mathrm{d}y}{\mathrm{d}x}}=-\frac{1}{\sin y}=-\frac{1}{\sqrt{1-x^2}}},\ \arccos x\in\left[0,\pi\right](\sin y>0).$$
         $$y=\arctan x\ \Rightarrow\ {\color{red}{\frac{\mathrm{d}y}{\mathrm{d}x}}=\frac{1}{1+x^2}}.$$
-        \begin{proof}{4.2}{}
+        \begin{proof}{5.4.2}{}
             {\color{green}{(Hint: Try to visualize a similar diagram as in proof 4.1.)}}\\
             From $y=\arccos x,$ we get $\cos y=x$. 
             $$\therefore (\cos y)'=(x)'\ \Rightarrow\ -\sin y\frac{\mathrm{d}y}{\mathrm{d}x}=1\ \Rightarrow\ \frac{\mathrm{d}y}{\mathrm{d}x}=-\frac{1}{\sin y}=-\frac{1}{\sqrt{1-x^2}}.$$
@@ -359,7 +359,7 @@ Topic 5 Calculus}
 \section{Related Rate of Change}
 \begin{enumerate}
     \item When finding a rate of change of $x$, we are finding the $\frac{\mathrm{d}y}{\mathrm{d}x}$.
-    \begin{example}{5.1}{}
+    \begin{example}{5.5.1}{}
         \textbf{Area of circle is increasing at a rate of $10\pi$ per second. When the raduis is $2$, what is the rate of change of radius? }\\
         \noindent\rule[0.1pt]{\textwidth}{1pt}
         Known: $\frac{\mathrm{d}A}{\mathrm{d}t}=10\pi,\ r=2$. Find: $\frac{\mathrm{d}r}{\mathrm{d}t}$.
@@ -369,7 +369,7 @@ Topic 5 Calculus}
         \end{aligned}$$
         $$\text{When }r=2,\ \frac{\mathrm{d}r}{\mathrm{d}t}=\frac{5}{2}.$$
     \end{example}
-    \begin{example}{5.2}{}
+    \begin{example}{5.5.2}{}
         \textbf{A spherical balloon is expanding at a rate of $60\pi$ per second. How fast is the surface area of the balloon expanding when the radius is $4$? }\\
         \noindent\rule[0.1pt]{\textwidth}{1pt}
         Known: $\frac{\mathrm{d}V}{\mathrm{d}t}=60\pi,\ r=4$. Find $\frac{\mathrm{d}A}{\mathrm{d}t}$.
@@ -389,12 +389,12 @@ Topic 5 Calculus}
 \end{enumerate}
 
 \section{More Limits - L'Hopital's Rule}
-\begin{theorem}{6.1 L'Hopital's Rule}{}
+\begin{theorem}{5.6.1 L'Hopital's Rule}{}
     When the limit is in the \textbf{\color{red}{indeterminant form}} ($\frac{0}{0}$ or $\frac{\infty}{\infty}$), 
     $${\color{red}{\lim_{x\rightarrow a}\left[\frac{f(x)}{g(x)}\right]\lim_{x\rightarrow a}\left[\frac{f'(x)}{g'(x)}\right]}},$$
     where $f'(x)$ and $g'(x)$ are the first derivatives of $f(x)$ and $g(x)$, respectively. 
 \end{theorem}
-\begin{example}{6.1}{}
+\begin{example}{5.6.1}{}
     $$\lim_{x\rightarrow 0}\frac{\tan x}{x}=\lim_{x\rightarrow 0}\frac{\sec^2x}{1}=1$$
 \end{example}
 
@@ -429,7 +429,7 @@ Topic 5 Calculus}
         $(\csc x)'=-\csc x\cot x$&${\color{red}{\int \csc x\cot x\ \mathrm{d}x}=-\csc x+C}$\\
     \end{tabular}\end{center}
     \item Anti-chain Rule in Integration: We must {\color{red}{divide}} the chain rule factor.
-    \begin{example}{7.1}{}
+    \begin{example}{5.7.1}{}
         $$\int (ax+b)^n\ \mathrm{d}x=\frac{1}{a}\left(\frac{1}{n+1}(ax+b)^{n+1}\right)+C$$
         $$\int e^{(ax+b)}\ \mathrm{d}x=\frac{1}{a}e^{ax+b}+C$$
         $$\int \frac{1}{(ax+b)}\ \mathrm{d}x=\frac{1}{a}\ln(ax+b)+C$$
@@ -437,14 +437,14 @@ Topic 5 Calculus}
         $$\int \cos{(ax+b)}\ \mathrm{d}x=\frac{1}{a}\sin(ax+b)+C$$
     \end{example}
     \item Integration Techniques: by Substitution and by Parts: 
-    \begin{theorem}{7.1 Integration By Substitution}{}
+    \begin{theorem}{5.7.1 Integration By Substitution}{}
         Whenever we have an integration like: $\int g'(x)\times f(g(x))\ \mathrm{d}x$, we can always assume {\color{red}{$u=g(x)$}}. Therefore, $\mathrm{d}u=g'(x)\cdot\mathrm{d}x$. {\color{green}{()$u=g(x)\ \Rightarrow\ \frac{\mathrm{d}u}{\mathrm{d}x}=g'(x)$)}}: 
         $${\color{red}{\int g'(x)\times f(g(x))\ \mathrm{d}x=\int f(u\ \mathrm{d}u)}}.$$
     \end{theorem}
-    \begin{theorem}{7.2 Integration By Parts}{}
+    \begin{theorem}{5.7.2 Integration By Parts}{}
         If $f(x)$ and $g(x)$ are two functions, and $f'(x)$ and $g'(x)$ are their derivatives, respectively, integration by parts can be written as following:         $${\color{red}{\int f(x)g'(x)\ \mathrm{d}x=f(x)g(x)-\int f'(x)g(x)\ \mathrm{d}x}}.$$
     \end{theorem}
-    \begin{example}{7.2}{}
+    \begin{example}{5.7.2}{}
         \textbf{Find $\int 2x(x^2+3)^5\ \mathrm{d}x$.}\\
         \noindent\rule[0.1pt]{\textwidth}{1pt}
         Since $2x=(x^2+3)'$, we consider to use integration by substitution. \\
@@ -462,7 +462,7 @@ Topic 5 Calculus}
         \item $${\color{red}{\int \frac{1}{1+x^2}\ \mathrm{d}x=\arctan x+C}}$$
         \item $${\color{red}{\int \frac{1}{x\sqrt{x^2-1}}\ \mathrm{d}x=\text{arcsec} x+C}}$$
     \end{itemize}
-    \begin{example}{7.3}{}
+    \begin{example}{5.7.3}{}
         \textbf{Find $\int \frac{\mathrm{d}x}{x^2+4x+5}$}\\
         \noindent\rule[0.1pt]{\textwidth}{1pt}
         $$\begin{aligned}
@@ -483,11 +483,11 @@ Topic 5 Calculus}
     \item If $f(x)\geq 0\ \forall x\in\left[a,b\right]$, then $\int_a^bf(x)\ \mathrm{d}x$ is defined as the shaded area: 
     \begin{figure}[H]
         \centering 
-        \includegraphics[width=0.5\textwidth]{Fig.6.jpg} 
+        \includegraphics[width=0.5\textwidth]{Fig.5.6.jpg} 
     \end{figure}
     This is known as the {\color{red}{Riemann integral}}.
     \item The {\color{red}{Fundamental Theorem of Calculus}}: 
-    \begin{theorem}{8.1 Fundamental Theorem of Calculus}{}
+    \begin{theorem}{5.8.1 Fundamental Theorem of Calculus}{}
         For a continuous function $f(x)$ with antiderivative $F(x)$: 
         $${\color{red}{\int_a^bf(x)\ \d x=F(b)-F(a)}}.$$
         This theorem explains the link between differential calculus and the definite integral. 
@@ -521,11 +521,11 @@ Topic 5 Calculus}
         \centering
         \subfigure[]{
             \begin{minipage}[t]{0.25\linewidth}
-            \includegraphics[width=2.1in]{Fig.7.jpg}
+            \includegraphics[width=2.1in]{Fig.5.7.jpg}
             \end{minipage}}
         \subfigure[]{
         \begin{minipage}[t]{0.25\linewidth}
-        \includegraphics[width=1.55in]{Fig.8.jpg}
+        \includegraphics[width=1.55in]{Fig.5.8.jpg}
         \end{minipage}}
     \end{figure}
     \begin{itemize}
@@ -560,7 +560,7 @@ Topic 5 Calculus}
         \\The \textbf{\color{red}{order of the differential equation}} is the highest order derivative in the equation. 
     \end{myclaim}
     \item Linearity of ODEs: 
-    \begin{theorem}{10.1}{}
+    \begin{theorem}{5.10.1}{}
         A differential equation is said to be \textbf{\color{red}{linear}} if: 
         \begin{itemize}
             \item All the terms with dependent variabels are in first-order.
@@ -600,7 +600,7 @@ Topic 5 Calculus}
             \item Separate the variables such that everything involving $y$ is on one side and everything involving $x$ is on the other side. 
             \item Integrate both sides and combine the constant of integration on one side of the equation (normally the right side).
         \end{enumerate}
-        \begin{example}{10.1}{}
+        \begin{example}{5.10.1}{}
             \textbf{Solve for $y$ if $\frac{\d y}{\d x}=x(1+y)e^x$.}\\
             \noindent\rule[0.1pt]{\textwidth}{1pt}
             $$\begin{aligned}
@@ -624,9 +624,9 @@ Topic 5 Calculus}
     \begin{myclaim}{ }{}
         \\Differential equations of the form $\frac{\d y}{\d x}=f\left(\frac{y}{x}\right)$, where $y=y(x)$, are known as \textbf{\color{red}{homogeneous differential equations}}.
     \end{myclaim}
-    \begin{theorem}{10.2}{}
+    \begin{theorem}{5.10.2}{}
         Homogeneous differential equations can be solved by using the substituion \textbf{\color{red}{$y=vx$}}, where $v$ is a function of $x$. The substitution will always reduce the differential equation to a separable differential equation. 
-        \begin{proof}{Theorem 10.2}{}
+        \begin{proof}{Theorem 5.10.2}{}
             If $y=vx$, where $v$ is a function of $x$, then: 
             $$\begin{aligned}
                 \frac{\d y}{\d x}&=\frac{\d v}{\d x}x+v\ \ \ \ \ \ \text{[Product Rule]}\\
@@ -637,7 +637,7 @@ Topic 5 Calculus}
             \end{aligned}$$
         \end{proof}
     \end{theorem}
-    \begin{example}{10.2}{}
+    \begin{example}{5.10.2}{}
         \textbf{Solve for $\frac{\d y}{\d x}=\frac{x+2y}{x}$, given $y(3)=\frac{3}{2}$.}\\
         \noindent\rule[0.1pt]{\textwidth}{1pt}
         $$\frac{\d y}{\d x}=1+2\frac{y}{x}\ \rightarrow\ \text{homogenous differential equation}$$
@@ -653,7 +653,7 @@ Topic 5 Calculus}
         Substituting $y=\frac{3}{2},\ x=3$: $\frac{3}{2}=A(3)^2-3\ \Rightarrow\ A=\frac{1}{2}$
         $$\therefore y=\frac{1}{2}x^2-x.$$
     \end{example}
-    \begin{example}{10.3}{}
+    \begin{example}{5.10.3}{}
         \textbf{Solve for $\frac{\d y}{\d x}=\frac{x+y}{x}$.}\\
         \noindent\rule[0.1pt]{\textwidth}{1pt}
         $$\frac{\d y}{\d x}=1+\frac{y}{x}\ \rightarrow\ \text{homogenous differential equation}$$
@@ -672,7 +672,7 @@ Topic 5 Calculus}
         $${\color{red}{I(x)=e^{\int P(x)\ \d x}}}$$
         is the \textbf{\color{red}{integrating factor}} for $\frac{\d y}{\d x}+P(x)y=Q(x),$ where P and Q are continuous functions of $x$ on a given interval. 
     \end{myclaim}
-    \begin{theorem}{10.3}{}
+    \begin{theorem}{5.10.3}{}
         $$\begin{aligned}
             \frac{\d y}{\d x}+P(x)y&=Q(x)\\
             I(x)\frac{\d y}{\d x}+I(x)P(x)y&=I(x)Q(x)\ [\text{Multiply both sides by }I(x)]\\
@@ -683,7 +683,7 @@ Topic 5 Calculus}
             {\color{red}{I(x)y}}&{\color{red}{=\int I(x)Q(x)\ \d x}}.
         \end{aligned}$$
     \end{theorem}
-    \begin{example}{10.4}{}
+    \begin{example}{5.10.4}{}
         \textbf{Solve $\frac{\d y}{\d x}+3x^2y=6x^2$.}\\
         \noindent\rule[0.1pt]{\textwidth}{1pt}
         $$\because P(x)=3x^2,\ Q(x)=6x^2,$$
@@ -701,7 +701,7 @@ Topic 5 Calculus}
     \item Euler's Method: 
     \begin{itemize}
         \item For $y=f(x)$, $y_{n+1}=y_n+hf'(x_0)$, $h$ is a constant. $${\color{red}{y-y_n=f'(x_n)(x-x_n)}}.$$
-        \begin{example}{10.5}{}
+        \begin{example}{5.10.5}{}
             \textbf{$y=x^2,\ \frac{\d y}{\d x}=2x,\ h=0.1$}\\
             \noindent\rule[0.1pt]{\textwidth}{1pt}
             \begin{center}\begin{tabular}{c|c|c|c}
@@ -746,7 +746,7 @@ Topic 5 Calculus}
         $${\color{red}{P_n(x)=f(0)+}+\frac{f'(0)}{1!}x+\frac{f''(0)}{2!}x^2+\cdots=\sum_{n=0}^\infty\frac{f^{(n)}(0)}{n!}x^n}.$$
     \end{myclaim}
     {\color{green}{A series converges when the sum of them is a constant (a limit can be found).}}
-    \begin{example}{11.1}{}
+    \begin{example}{5.11.1}{}
         \textbf{Find the Maclaurin series for $f(x)=\frac{1}{2+x}$.}\\
         \noindent\rule[0.1pt]{\textwidth}{1pt}
         \begin{center}\begin{tabular}{c|c} 
@@ -763,7 +763,7 @@ Topic 5 Calculus}
     \end{example}
     \item The Binomial series is the Maclaurin expansion for $f(x)=(1+x)^p$: 
     $${\color{red}{(1+x)^p=\sum_{n=0}^p\binom{p}{n}x^n}},\ 1\leq n\leq p,\ \binom{p}{n}=\frac{p!}{n!(p-n)!}=\frac{p(p-1)(p-2)\cdots(p-(n-1))}{n!}.$$
-    \begin{example}{11.2}{}
+    \begin{example}{5.11.2}{}
         \textbf{Use the Binomial series to find the Maclaurin series for $f(x)=\frac{1}{(x+2)^2}$.}\\
         \noindent\rule[0.1pt]{\textwidth}{1pt}
         $$\begin{aligned}
@@ -774,7 +774,7 @@ Topic 5 Calculus}
             &=1-2x+3x^2-4x^3+\cdots+(-1)^n(n+1)x^n+\cdots
         \end{aligned}$$
     \end{example}
-    \begin{example}{11.3}{}
+    \begin{example}{5.11.3}{}
         \textbf{Use the Binomial series to find the Maclaurin series for $f(x)=\frac{1}{\sqrt{2-x}}$.}\\
         \noindent\rule[0.1pt]{\textwidth}{1pt}
             $$f(x)=(2-x)^{-\frac{1}{2}}=(2)^{-\frac{1}{2}}\left(1-\frac{x}{2}\right)^{-\frac{1}{2}}=\frac{\sqrt{2}}{2}\left(1-\frac{x}{2}\right)^{-\frac{1}{2}}$$
@@ -783,20 +783,20 @@ Topic 5 Calculus}
     \item Applications of Maclaurin Series: 
     \begin{itemize}
         \item Approximation of $\sin,\ \cos,\ \tan,...$
-        \begin{example}{11.4}{}
+        \begin{example}{5.11.4}{}
             \textbf{Approximate $\sin 3^\circ$ using the first four terms of Maclaurin series.}\\
             \noindent\rule[0.1pt]{\textwidth}{1pt}
             $$3^\circ=\frac{\pi}{60},\ \text{For }\sin x,\ P(x)=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+\cdots$$
             $$\therefore P\left(\frac{\pi}{60}\right)=x-\frac{\left(\frac{\pi}{60}\right)^3}{3!}+\frac{\left(\frac{\pi}{60}\right)^5}{5!}-\frac{\left(\frac{\pi}{60}\right)^7}{7!}+\cdots\approx 0.052336\ \text{(6 d.p.)}.$$
         \end{example}
         \item More Complicated Functions
-        \begin{example}{11.5}{}
+        \begin{example}{5.11.5}{}
             \textbf{Find the Maclaurin series of $f(x)=e^{x^2}$.}\\
             \noindent\rule[0.1pt]{\textwidth}{1pt}
             Let $u=x^2, f(x)=e^u$:
             $$P(x)=1+u+\frac{u^2}{2!}+\frac{u^3}{3!}+\cdots=\sum_{n=0}^\infty\frac{u^n}{n!}=\sum_{n=0}^\infty\frac{\left(x^2\right)^n}{n!}=\sum_{n=0}^\infty\frac{x^{2n}}{n!}.$$
         \end{example}
-        \begin{example}{11.6}{}
+        \begin{example}{5.11.6}{}
             \textbf{Find the Maclaurin series of $f(x)=\ln\left(\frac{1+x}{1-x}\right)$.}\\
             \noindent\rule[0.1pt]{\textwidth}{1pt}
             $$\ln\left(\frac{1+x}{1-x}\right)=\ln(1+x)-\ln(1-x)$$
@@ -808,10 +808,10 @@ Topic 5 Calculus}
                 &=2\sum_{n=0}^\infty\frac{x^{2n+1}}{2n+1}.
             \end{aligned}$$
         \end{example}
-        \begin{example}{11.7 Question}{}
+        \begin{example}{5.11.7 Question}{}
             \textbf{Find the Maclaurin series of $f(x)=\frac{x}{(1+x)^2}$.}
         \end{example}            
-        \begin{example}{11.7 Answer}{}
+        \begin{example}{5.11.7 Answer}{}
         $$\begin{aligned}
                 f(x)&=x(1+x)^{-2}\\
                 &=x\sum_{n=0}^\infty\binom{-2}{n}x^n\\
@@ -819,7 +819,7 @@ Topic 5 Calculus}
             \end{aligned}$$
         \end{example}
         \item Evaluate Limits
-        \begin{example}{11.8}{}
+        \begin{example}{5.11.8}{}
             \textbf{Find $\lim\limits_{x\to 0}\frac{1-e^{x^2}}{1-\cos x}$.}\\
             \noindent\rule[0.1pt]{\textwidth}{1pt}
             $$e^{x^2}=1+x^2+\frac{x^4}{2!}+\frac{x^6}{3!}+\cdots$$
@@ -833,7 +833,7 @@ Topic 5 Calculus}
             {\color{green}{[Consider only the smallest power of $x$, as higher powers will go to zero much quicker.]}}
         \end{example}
         \item Solve Differential Equations
-        \begin{example}{11.9}{}
+        \begin{example}{5.11.9}{}
             \textbf{Use the first six terms of a Maclaurin series to approximate the solution of $y'=y^2-x$ on an open interval centered at $x=0$ if $y(0)=1$.}\\
             \noindent\rule[0.1pt]{\textwidth}{1pt}
             \begin{center}\begin{tabular}{c|c}
@@ -846,13 +846,13 @@ Topic 5 Calculus}
                 $y^{(5)}=2yy^{(4)}+8y'y'''+6(y'')^2$&$y^{(5)}(0)=66$
             \end{tabular}\end{center}
         \end{example}
-        \begin{example}{11.9 \textit{Continued}}{}
+        \begin{example}{5.11.9 \textit{Continued}}{}
         $$\therefore P(x)=1+x+\frac{1}{2}x^2+\frac{4}{3!}x^3+\frac{14}{4!}x^4+\frac{66}{5!}x^5+\cdots$$
         \end{example}
         \item Binomial Theorem
-        \begin{theorem}{11.1}{}
+        \begin{theorem}{5.11.1}{}
             Function $f(x)=(1+x)^p,\ p\in\R$ is equal to its Binomial series using the initial condition $y(0)=1$.
-            \begin{proof}{Theorem 11.1}{}
+            \begin{proof}{Theorem 5.11.1}{}
                 $$f(x)=1+px+\frac{p(p-1)}{2!}x^2+\cdots+\frac{p(p-1)\cdots(p-n+1)}{n!}x^n+\cdots$$
                 $$\therefore f'(x)=p+p(p-1)x+\frac{p(p-1)(p-2)}{2!}x^2+\cdots$$
                 $$xf'(x)=px+p(p-1)x^2+\frac{p(p-1)(p-2)}{2!}x^3+\cdots$$

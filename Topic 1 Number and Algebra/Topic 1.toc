@@ -5,8 +5,8 @@
 \contentsline {section}{\numberline {5}Partial Fraction - AHL}{11}{section.5}%
 \contentsline {section}{\numberline {6}Complex Number - AHL}{12}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Introduction}{12}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Argand Diagram}{13}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.2}Argand Diagram}{14}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Complex Number in Other Forms}{15}{subsection.6.3}%
 \contentsline {subsection}{\numberline {6.4}Power of Complex Number}{16}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Polynomial Function with Complex Roots}{17}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}Root of Complex Numbers}{17}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.5}Polynomial Function with Complex Roots}{18}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Root of Complex Numbers}{18}{subsection.6.6}%
