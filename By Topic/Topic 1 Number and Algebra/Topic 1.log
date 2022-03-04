@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.3.10)  4 MAR 2022 23:35
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.3.10)  5 MAR 2022 00:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/richardlyu/Documents/Projects/Latex/Math AA/Topic 1 Number and Algebra/Topic 1"
-(/Users/richardlyu/Documents/Projects/Latex/Math AA/Topic 1 Number and Algebra/Topic 1.tex
+**"/Users/richardlyu/Documents/GitHub/IBDP-Mathematics-Analysis-and-Approches-Higher-Level-Learning-Notes/Topic 1 Number and Algebra/Topic 1"
+(/Users/richardlyu/Documents/GitHub/IBDP-Mathematics-Analysis-and-Approches-Higher-Level-Learning-Notes/Topic 1 Number and Algebra/Topic 1.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06> (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -915,7 +915,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Info: Redefining \hbar on input line 50.
 )
 \c@tcb@cnt@myclaim=\count346
- (./Topic 1.aux)
+
+No file "Topic 1".aux.
 \openout1 = `"Topic 1.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
@@ -928,7 +929,7 @@ LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 122.
 LaTeX Font Info:    ... okay on input line 122.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 122.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 122.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 122.
@@ -961,15 +962,17 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 122.
 LaTeX Info: Redefining \pageref on input line 122.
 LaTeX Info: Redefining \nameref on input line 122.
- (./Topic 1.out) (./Topic 1.out)
 \@outlinefile=\write6
 \openout6 = `"Topic 1.out"'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 \c@lstlisting=\count348
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 122.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1030,14 +1033,6 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 125.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 125.
- (./Topic 1.toc
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-)
 \tf@toc=\write7
 \openout7 = `"Topic 1.toc"'.
 
@@ -1046,17 +1041,51 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 ) [1
 
 ]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 134.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13]
+
+LaTeX Warning: File `Fig.1.1.jpg' not found on input line 538.
+
+/Users/richardlyu/Documents/GitHub/IBDP-Mathematics-Analysis-and-Approches-Higher-Level-Learning-Notes/Topic 1 Number and Algebra/Topic 1.tex:538: Unable to load picture or PDF file 'Fig.1.1.jpg'.
+<to be read again> 
+                   }
+l.538 ...raphics[width=0.5\textwidth]{Fig.1.1.jpg}
+                                                  
+The requested image couldn't be read because
+it was not a recognized image format.
+
+
+/Users/richardlyu/Documents/GitHub/IBDP-Mathematics-Analysis-and-Approches-Higher-Level-Learning-Notes/Topic 1 Number and Algebra/Topic 1.tex:538: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.538 ...raphics[width=0.5\textwidth]{Fig.1.1.jpg}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 File: Fig.1.1.jpg Graphic file (type bmp)
 <Fig.1.1.jpg>
- [14] [15] [16] [17] [18]
+[14] [15] [16] [17] [18]
 \tf@thm=\write8
 \openout8 = `"Topic 1.thm"'.
 
- 
+
+
+Package lastpage Warning: Rerun to get the references right on input line 715.
+
+
 AED: lastpage setting LastPage
 [19]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 715.
@@ -1066,14 +1095,18 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 715.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 715.
 Package rerunfilecheck Info: File `"Topic 1".out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 30806 strings out of 479418
- 603717 string characters out of 5884585
- 922324 words of memory out of 5000000
- 47794 multiletter control sequences out of 15000+600000
+ 30846 strings out of 479418
+ 604260 string characters out of 5884585
+ 921188 words of memory out of 5000000
+ 47819 multiletter control sequences out of 15000+600000
  571375 words of font info for 86 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,16n,103p,906b,2018s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,16n,103p,958b,2018s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Topic 1.pdf (19 pages).
