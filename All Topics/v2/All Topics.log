@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.3.10)  4 MAR 2022 23:52
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2021.3.10)  6 MAR 2022 23:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/richardlyu/Documents/Projects/Latex/Math AA/All Topics - v2/All Topics"
-(/Users/richardlyu/Documents/Projects/Latex/Math AA/All Topics - v2/All Topics.tex
+**"/Users/richardlyu/Documents/GitHub/IBDP-Mathematics-Analysis-and-Approches-Higher-Level-Learning-Notes/All Topics/v2/All Topics"
+(/Users/richardlyu/Documents/GitHub/IBDP-Mathematics-Analysis-and-Approches-Higher-Level-Learning-Notes/All Topics/v2/All Topics.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06> (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -1246,11 +1246,11 @@ Package rerunfilecheck Info: File `"All Topics".out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  30990 strings out of 479418
- 605335 string characters out of 5884585
+ 605485 string characters out of 5884585
  919613 words of memory out of 5000000
  47924 multiletter control sequences out of 15000+600000
  574691 words of font info for 88 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,21n,103p,898b,684s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,21n,103p,948b,684s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on All Topics.pdf (82 pages).
