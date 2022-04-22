@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Statistics and Probability}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}An Introduction to Statistics}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Linear Correlation of Bivariate Data}{5}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Probability and Expected Outcomes}{6}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Probability Calculations}{7}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Discrete Random Variables}{8}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}The Binomial Distribution}{9}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}The Normal Distribution and Curve}{10}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Probability Density Function (PDF)}{12}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}The Bayes' Theorem}{13}{subsection.1.9}%
